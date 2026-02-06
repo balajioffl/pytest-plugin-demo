@@ -4,7 +4,8 @@ from pytest_qatouch import qatouch
 def test_example_pass():
     assert True
 
-@qatouch.TR(11)
+@qatouch.TR(1)
 def test_sum():
     assert 1 + 1 == 2
 
+    
